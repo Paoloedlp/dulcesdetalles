@@ -16,12 +16,12 @@
 	opacity: 0
 	z-index: 10
 	transition: opacity .3s ease-in-out, visibility 0s .3s
-	
+
 	&.open
 		visibility: visible
 		opacity: 1
 		transition: opacity .3s ease-in-out
-	
+
 	&:before
 		content: ""
 		position: absolute
@@ -33,7 +33,7 @@
 		border: 1px solid $black
 		border: 1px solid rgba(17,17,17,.15)
 		background-color: $letter-muted
-	
+
 	li
 		position: relative
 		width: 100%
@@ -43,10 +43,10 @@
 		background-color: $letter-muted
 		overflow: hidden
 		z-index: 10
-		
+
 		&:last-child
 			border-bottom: none
-	
+
 		a
 			display: block
 			width: 100%
@@ -58,7 +58,6 @@
 			text-transform: uppercase
 			text-decoration: none
 			transition: background-color .2s ease-in-out
-			
+
 			&:hover
 				background-color: darken($letter-muted, 3%)
-				
